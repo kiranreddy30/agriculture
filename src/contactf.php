@@ -102,7 +102,7 @@
                                             <span class="fa fa-globe"></span>
                                         </div>
                                         <div class="text pl-3">
-                                            <p><span>Website</span> <a href="home.php">Cropcure.com</a></p>
+                                            <p><span>Website</span> <a href="index.php">Cropcure.com</a></p>
                                         </div>
                                     </div>
                                 </div>

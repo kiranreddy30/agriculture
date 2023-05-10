@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Simple Forum</title>
-	<link rel="stylesheet" type="text/css" href="./csss/forumstyle.css">
-	<link rel="stylesheet" type="text/css" href="./csss/Style.css">
+	<link rel="stylesheet" type="text/css" href="./css/forumstyle.css">
+
     <link href="./photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -11,15 +11,15 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
     
-  <link rel="stylesheet" href="./csss/Style.css">
-  <link rel="stylesheet" href="./csss/Style.css">
+  <link rel="stylesheet" href="./css/style1.css">
+
 </head>
 <body>
 	<header>
 	<header>
     <!-- <div class="container-fluid p-0"> -->
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="home.php" style="font-size: 35px; color:black;">
+        <a class="navbar-brand" href="index.php" style="font-size: 35px; color:black;">
         <i class="fa-solid fa-tractor fa-xl" style="color: black;"></i><span></span><span></span> <span></span> Crop Cure</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
           <div class="mr-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fa-solid fa-house" style="color: black;"></i>
+              <a class="nav-link" href="index.php"><i class="fa-solid fa-house" style="color: black;"></i>
                 <span class="sr-only">(current)</span>
               </a>
             </li>

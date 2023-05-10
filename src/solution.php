@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
     
-  <link rel="stylesheet" href="./csss/Style.css">
-  <link rel="stylesheet" href="./csss/mobile-style.css">
+  <link rel="stylesheet" href="./css/style1.css">
+  <link rel="stylesheet" href="./css/mobile-style.css">
 </head>
 
 <body>
@@ -91,7 +91,7 @@
                 $symptomname=$_POST['sympomname'];
                
 
-                $req1="select treatment_desc from treatment where disease_id=(select disease_id from disease_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))" ;
+                $req1="select treatment_desc from treatment where disease_id=(select disease_id from dis_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))" ;
                 $result=mysqli_query($connection, $req1);
 
                 if (mysqli_num_rows($result) > 0) {

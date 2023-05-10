@@ -2,10 +2,7 @@
 
 $connection=mysqli_connect('localhost','kiranreddy','Kiran@1804','dbms');
 
-// $name = 'kiraan';
-// $email = 'k@k.c';
-// $subject='ee';
-// $message='qwertyuioplkjhgfdsazxcvbnm';
+
 
 if(isset($_POST['sent'])){
     $name = $_POST['name'];
