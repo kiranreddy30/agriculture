@@ -35,7 +35,7 @@
 
 
     <script src="https://kit.fontawesome.com/f9fb1558da.js" crossorigin="anonymous"></script>
-    <script src="check2.js"></script>
+    <script src="./js/check2.js"></script>
 
 </body>
 </html>

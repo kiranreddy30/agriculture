@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="./photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
+  <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
   
   <title>CropCure</title>
 

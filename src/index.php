@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>CropCure</title>
-  <link href="./photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
+  <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
@@ -85,7 +85,7 @@
           </button> -->
         </div>
         <div class="col-md-5 col-sm-12  h-25">
-          <img src="./photos/crop1.jpg" alt="Book" />
+          <img src="./blogmaterial/photos/crop1.jpg" alt="Book" />
           <input type="text">
         </div>
       </div>
@@ -97,7 +97,7 @@
         <div class="row">
           <div class="col-md-6 col-12">
             <div class="pray">
-              <img src="./photos/crop4.jpg" alt="pray" class="" />
+              <img src="./blogmaterial/photos/crop4.jpg" alt="pray" class="" />
             </div>
           </div>
           <div class="col-md-6 col-12">

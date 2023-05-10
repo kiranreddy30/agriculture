@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <script src="contact.js" ></script>
+    <script src="./js/contact.js" ></script>
 
     <!-- <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
