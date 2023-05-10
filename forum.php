@@ -81,9 +81,9 @@
 				<?php
 
 				$servername = "localhost";
-				$username = "kiranreddy";
-				$password = "Kiran@1804";
-				$dbname = "dbms";
+				$username = "dbms07";
+				$password = "dbms@07";
+				$dbname = "dbms07";
 				$conn = mysqli_connect($servername, $username, $password, $dbname);
 				if (!$conn) {
 				    die("Connection failed: " . mysqli_connect_error());
@@ -106,7 +106,11 @@
                     }
                 }
 
+<<<<<<< HEAD
         mysqli_close($conn);
+=======
+mysqli_close($conn);
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
 			?>
 		</ul>
 	  </section>

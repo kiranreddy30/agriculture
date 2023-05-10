@@ -12,6 +12,7 @@
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+<<<<<<< HEAD
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -19,11 +20,15 @@
 
    <link rel="stylesheet" href="./css/style2.css">
    <link rel="stylesheet" href="./css/style1.css">
+=======
+   <link rel="stylesheet" href="./css/style2.css">
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
 
 </head>
 
 <body style="background-color: black;">
 
+<<<<<<< HEAD
    <header>
 	  <header style="background-color: #8BC34A; color: black; padding: 10px;">
 
@@ -73,6 +78,8 @@
 
 	</header>
 
+=======
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
    <section class="booking">
 
       <h1 class="heading-title" style="color: green;">Get ur plant cured here!</h1>
@@ -93,6 +100,7 @@
 
          </div>
 
+<<<<<<< HEAD
          <input type="submit" value="submit" class="btn" name="send"> <span></span>
          <!-- <input type="submit" value="Home" class="btn"> -->
          
@@ -110,6 +118,14 @@
   <script src="./main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+=======
+         <input type="submit" value="submit" class="btn" name="send">
+
+      </form>
+
+   </section>
+
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
 </body>
 
 </html>

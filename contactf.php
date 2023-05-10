@@ -169,6 +169,7 @@
     </section>
 
     <script src="./js/contact.js" ></script>
+<<<<<<< HEAD
 
 
     <script src="https://kit.fontawesome.com/f9fb1558da.js" crossorigin="anonymous"></script>
@@ -181,6 +182,8 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+=======
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
 
 </body>
 

@@ -1,8 +1,12 @@
 <?php
 
-$connection=mysqli_connect('localhost','kiranreddy','Kiran@1804','dbms');
+$connection=mysqli_connect('localhost','dbms07','dbms@07','dbms07');
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> b10db5c8fb7e490fa73877500b66c07e633d44e9
 
 if(isset($_POST['sent'])){
     $name = $_POST['name'];
