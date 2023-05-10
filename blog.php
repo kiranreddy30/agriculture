@@ -8,8 +8,8 @@
   <title>CC Blog</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+   <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
 
-  <!-- <link href="blogmaterial/img/favicon.png" rel="icon"> -->
   <link href="blogmaterial/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,38 +37,7 @@
         <h1 style="color: green;">CropCure</h1>
       </a>
 
-      <!-- <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Blog</a></li>
-          <li><a href="#">Single Post</a></li>
-          <li class="dropdown"><a href="category.html"><span>Categories</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="search-result.html">Search Result</a></li>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav> -->
-
       <div class="position-relative">
-        <!-- <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
-        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
-        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>-->
 
         <a href="#" class="mx-2 js-search-open"><span class="bi-search" style="color: green;"></span></a>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -167,34 +136,34 @@
               <div class="col-lg-4 border-start custom-border">
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide9.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Sport</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div> -->
+
                   <h2><a href="#">The Pros and Cons of Organic Farming</a></h2>
                 </div>
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide2.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Food</span> <span class="mx-1">&bullet;</span> <span>Jul 17th '22</span></div> -->
+
                   <h2><a href="#">The Impact of Agriculture on Biodiversity</a></h2>
                 </div>
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide12.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Design</span> <span class="mx-1">&bullet;</span> <span>Mar 15th '22</span></div> -->
+
                   <h2><a href="#">The Potential of Hydroponics: Growing Plants without Soil</a></h2>
                 </div>
               </div>
               <div class="col-lg-4 border-start custom-border">
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide4.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Business</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div> -->
+
                   <h2><a href="#">The Challenges and Opportunities of Small-Scale Farming</a></h2>
                 </div>
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide5.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Tech</span> <span class="mx-1">&bullet;</span> <span>Mar 1st '22</span></div> -->
+
                   <h2><a href="#">The Economics of Agriculture: Trends and Perspectives</a></h2>
                 </div>
                 <div class="post-entry-1">
                   <a href="#"><img src="blogmaterial/img/slide15.jpg" alt="" class="img-fluid"></a>
-                  <!-- <div class="post-meta"><span class="date">Travel</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div> -->
+
                   <h2><a href="#">The Future of Farming: Automation and Robotics</a></h2>
                 </div>
               </div>
@@ -208,35 +177,35 @@
                       <a href="#">
                         <span class="number">1</span>
                         <h3>The Impact of Climate Change on Agriculture: Challenges and Solutions</h3>
-                        <!-- <span class="author">Jane Cooper</span> -->
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span class="number">2</span>
                         <h3>The Importance of Soil Health for Sustainable Agriculture</h3>
-                        <!-- <span class="author">Wade Warren</span> -->
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span class="number">3</span>
                         <h3>Sustainable Agriculture: Balancing Productivity and Environmental Impact</h3>
-                        <!-- <span class="author">Esther Howard</span> -->
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span class="number">4</span>
                         <h3>The Rise of Precision Agriculture: How Technology is Transforming Farming</h3>
-                        <!-- <span class="author">Cameron Williamson</span> -->
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span class="number">5</span>
                         <h3>The Potential of Hydroponics: Growing Plants without Soil</h3>
-                        <!-- <span class="author">Jenny Wilson</span> -->
+
                       </a>
                     </li>
                   </ul>
@@ -255,7 +224,6 @@
 
   </main>
 
-  
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <script src="blogmaterial/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

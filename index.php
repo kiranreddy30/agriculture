@@ -7,12 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>CropCure</title>
   <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
-  
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-    
+
   <link rel="stylesheet" href="./css/style1.css">
 
 </head>
@@ -41,27 +41,20 @@
             <li class="nav-item dropdown">
               <div class="dropdown">
                 <a href="check.php" class="nav-link" style="color: black;">CURE </a>
-                <!-- <div class="dropdown-content">
-                  <a href="check.php" target="_blank" style="color: black;">Treatment</a>
-                  <a href="#" style="color: black;">Element</a>
-                </div> -->
+
               </div>
             </li>
             <li class="nav-item dropdown">
               <div class="dropdown">
                 <a href="blog.php" class="nav-link" style="color: black;">NEWS </a>
-<!--               
-                <div class="dropdown-content">
-                  <a href="#" style="color: black;">Overview</a>
-                  <a href="#" style="color: black;">Media</a>
-                </div> -->
+
               </div>
             </li>
             <li class="nav-item" style="color: white;">
               <a class="nav-link" href="contactf.php" style="color: black;">Contact Us</a>
-                
+
             </li>
-          
+
             <li class="nav-item">
               <a class="nav-link " href="login.php"><i class="fa-solid fa-right-to-bracket" style="color: black;"></i> </a>
             </li>
@@ -73,16 +66,14 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
-          <!-- <h6>AUTHOR: DAILY TUITION</h6> -->
+
           <h1 style="color: green;">CROP CURE</h1>
           <p>
            <h6 style="color: black; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;">~"Elevate Your Crop Health with Crop Cure's Expertise." </h6><br>
             The goal of crop cure is to help crops recover from damage and achieve optimal growth and yield. 
             Consultation with agricultural experts and adherence to best management practices is crucial for effective crop cure.
           </p>
-          <!-- <button class="btn btn-light px-5 py-2 primary-btn">
-            By now for $5.99
-          </button> -->
+
         </div>
         <div class="col-md-5 col-sm-12  h-25">
           <img src="./blogmaterial/photos/crop1.jpg" alt="Book" />
@@ -112,7 +103,7 @@
         </div>
       </div>
     </section>
-  
+
   </main>
   <footer>
     <div class="container-fluid p-0">
@@ -120,11 +111,9 @@
         <div class="col-md-5 col-sm-5" style="position: relative; left: 100px;">
           <h4 class="text-light">About us</h4>
           <p class="text-muted">Our expertise will provide a detailed solution for the damaged crop.</p>
-          <!-- <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
-            <span> Daily Tuition</span>
-          </p> -->
+
         </div>
-        
+
         <div class="col-md-2 col-sm-12" style="position: relative; left: 400px;">
           <h4 class="text-light">Follow Us On</h4>
           <p class="text-muted">Let us be social</p>

@@ -5,6 +5,8 @@
     <title>Contact Form</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
+
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
@@ -62,7 +64,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <input type="submit" name="sent" value="SUBMIT" class="btn btn-primary">
-                                                    <!-- <div class="submitting"></div> -->
+
                                                 </div>
                                             </div>
                                         </div>
@@ -115,12 +117,6 @@
     </section>
 
     <script src="./js/contact.js" ></script>
-
-    <!-- <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/main.js"></script> -->
 
 </body>
 

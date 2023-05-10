@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="./blogmaterial/photos/WhatsApp Image 2023-05-08 at 10.46.07 PM.jpeg" rel="icon">
-  
+
   <title>CropCure</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-    
+
   <link rel="stylesheet" href="./css/style1.css">
   <link rel="stylesheet" href="./css/mobile-style.css">
 </head>
@@ -42,27 +42,20 @@
             <li class="nav-item dropdown">
               <div class="dropdown">
                 <a href="check.php" class="nav-link" style="color: black;">CURE </a>
-                <!-- <div class="dropdown-content">
-                  <a href="#" style="color: black;">Generic</a>
-                  <a href="#" style="color: black;">Element</a>
-                </div> -->
+
               </div>
             </li>
             <li class="nav-item dropdown">
               <div class="dropdown">
                 <a href="#" class="nav-link" style="color: black;">NEWS</a>
-              
-                <!-- <div class="dropdown-content">
-                  <a href="#" style="color: black;">Overview</a>
-                  <a href="#" style="color: black;">Media</a>
-                </div> -->
+
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" style="color: black;">FACT</a>
-                
+
             </li>
-          
+
             <li class="nav-item">
               <a class="nav-link " href="login.php"><i class="fa-solid fa-right-to-bracket" style="color: black;"></i> </a>
             </li>
@@ -77,55 +70,48 @@
         <div class="row">
           <div class="col-md-5 col-10">
             <div class="pray">
-              <!-- <img src="crop4.jpg" alt="pray" class="" /> -->
+
             </div>
           </div>
           <div class="col-md-6 col-12">
             <div class="panel text-left" style="font-style: normal; font-size:30px; display:flex; text-align: center;font-family: 'Dancing Script', cursive;">
             <?php
-             
 
              $connection=mysqli_connect('localhost','kiranreddy','Kiran@1804','dbms');
              if(isset($_POST['send'])){
                 $plantname=$_POST['planname'];
                 $symptomname=$_POST['sympomname'];
-               
 
                 $req1="select treatment_desc from treatment where disease_id=(select disease_id from dis_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))" ;
                 $result=mysqli_query($connection, $req1);
 
                 if (mysqli_num_rows($result) > 0) {
-                    // output data of each row
+
                     while($row = mysqli_fetch_assoc($result)) {
                         echo  $row["treatment_desc"]. "<br>";
                     }
                   } else {
                     echo "No solution has been found we will shortly update your query";
-                    //echo "\r\n";
-                    //echo "Your query will be resolved shortly";
+
                     $req2="INSERT INTO `queststore` (`q_id`, `plant name`, `symptom`) VALUES (NULL,'$plantname', '$symptomname')";
                     $result=mysqli_query($connection, $req2);
-                    
-                  }
 
+                  }
 
             }
 
-
              ?>
-           
+
             </div>
           </div>
         </div>
       </div>
     </section>
-  
+
   </main>
 
-      
     </div>
-  
-    
+
   </header>
     <footer>
     <div class="container-fluid p-0">
@@ -133,11 +119,9 @@
         <div class="col-md-5 col-sm-5" style="position: relative; left: 100px;">
           <h4 class="text-light">About us</h4>
           <p class="text-muted">Our expertise will provide a detailed solution for the damaged crop.</p>
-          <!-- <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
-            <span> Daily Tuition</span>
-          </p> -->
+
         </div>
-        
+
         <div class="col-md-2 col-sm-12" style="position: relative; left: 400px;">
           <h4 class="text-light">Follow Us On</h4>
           <p class="text-muted">Let us be social</p>
