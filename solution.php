@@ -20,6 +20,7 @@
 
 <body>
   <header>
+    
     <div class="container-fluid p-0">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="home.php" style="font-size: 35px; color:black;">
@@ -81,22 +82,56 @@
              if(isset($_POST['send'])){
                 $plantname=$_POST['planname'];
                 $symptomname=$_POST['sympomname'];
+               
 
-                $req1="select treatment_desc from treatment where disease_id=(select disease_id from dis_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))" ;
+               
+                $req1="select * from treatment where disease_id=(select disease_id from dis_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))" ;
+                $req3="select disease_desc from disease where disease_id=(select disease_id from dis_ident where plant_id=(select plant_id from plant where plant_name='$plantname') and symptom_id=(select symptom_id from symptoms where symptom_name='$symptomname'))";
                 $result=mysqli_query($connection, $req1);
+                $result3=mysqli_query($connection, $req3);
 
-                if (mysqli_num_rows($result) > 0) {
+
+                if(mysqli_num_rows($result3)>0){
+                  while($row3=mysqli_fetch_assoc($result3)) {
+
+
+                    echo "Disease: ";
+                   
+                    echo  htmlspecialchars($row3["disease_desc"]);
+                    echo '<br>';
+                    echo '<br>';
+   
+                 }
+
+                }
+
+               if (mysqli_num_rows($result) > 0) {
 
                     while($row = mysqli_fetch_assoc($result)) {
-                        echo  $row["treatment_desc"]. "<br>";
-                    }
-                  } else {
+
+                      echo "Treatment: ";
+                      echo '<br>';
+                       echo  htmlspecialchars($row["treatment_desc"]);
+                       echo '<br>';
+                       echo '<br>';
+
+                       echo "Fertilisers: ";
+                       echo '<br>';
+                       echo  htmlspecialchars($row['fertilisers']);
+                    
+                      
+                       //echo '<h3>' . htmlspecialchars($row["fertilisers"]) . '</h3>';
+
+				        
+                       
+                   }
+                 } else {
                     echo "No solution has been found we will shortly update your query";
 
                     $req2="INSERT INTO `queststore` (`q_id`, `plant name`, `symptom`) VALUES (NULL,'$plantname', '$symptomname')";
                     $result=mysqli_query($connection, $req2);
 
-                  }
+                 }
 
             }
 
