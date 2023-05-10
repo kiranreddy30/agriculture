@@ -78,7 +78,7 @@
             <div class="panel text-left" style="font-style: normal; font-size:30px; display:flex; text-align: center;font-family: 'Dancing Script', cursive;">
             <?php
 
-             $connection=mysqli_connect('localhost','kiranreddy','Kiran@1804','dbms');
+             $connection=mysqli_connect('localhost','dbms07','dbms@07','dbms07');
              if(isset($_POST['send'])){
                 $plantname=$_POST['planname'];
                 $symptomname=$_POST['sympomname'];
